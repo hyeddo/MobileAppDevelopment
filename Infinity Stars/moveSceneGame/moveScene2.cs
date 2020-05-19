@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class moveScene2 : MonoBehaviour
+{
+    void Awake()
+    {
+        Screen.SetResolution(1920, 1080, true); //해상도 조정
+    }
+    public void GoToGame()
+    {
+        SceneManager.LoadScene("Flight2");
+    }
+}
